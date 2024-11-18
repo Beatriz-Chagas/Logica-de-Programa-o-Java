@@ -1,0 +1,23 @@
+package operadores_relacionais_14_26;
+
+import java.util.Scanner;
+
+public class PrecoMacas {
+	// Exercício 16
+public static void main (String [] args) {
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Insira o número de maçãs compradas: ");
+		int maca = scan.nextInt();
+		double preco = 0;
+		
+		if (maca < 12) {
+			 preco = 1.30;
+		};
+		
+		double precoFinal = maca + preco;
+		
+		System.out.println("O preço final da maçã é: " + precoFinal);
+	}
+}

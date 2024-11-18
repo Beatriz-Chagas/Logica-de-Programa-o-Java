@@ -1,0 +1,11 @@
+package operadores_logicos_1a11;
+
+import java.util.Scanner;
+
+public class Sucessor {
+
+	public static void main(String [] args) {
+		
+		
+	}
+}

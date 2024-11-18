@@ -1,0 +1,17 @@
+package operadores_logicos_1a11;
+
+import java.util.Scanner;
+
+public class Sucessor {
+
+	public static void main (String [] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Insira um número qualquer");
+		int numero = scan.nextInt();
+		int resultado = numero + 1;
+		
+		System.out.println("O numero sucessor é: " + resultado);
+		
+	}
+}

@@ -1,0 +1,17 @@
+package operadores_relacionais_14_26;
+
+import java.util.Scanner;
+
+public class MaiorMenor {
+// Exercício 14
+	public static void main (String [] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Insira um valor para descobrir se é maior ou menor que 10: ");
+		float numero = scan.nextFloat();
+		
+		String mensagem = (numero < 10)?"Este número é menor que o número 10.":(numero ==10)?"Este número é igual o número 10.":"Este número é maior que o número 10.";
+			System.out.println(mensagem);
+	}
+	
+}
