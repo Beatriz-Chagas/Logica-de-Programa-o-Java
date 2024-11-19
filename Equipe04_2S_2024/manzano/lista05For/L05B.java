@@ -3,7 +3,7 @@ package lista05For;
 import java.util.Scanner;
  
 public class L05B {
- 
+	 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		
