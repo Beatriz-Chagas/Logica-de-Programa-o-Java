@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\Aluno\OneDrive - SENAC - SP\Documentos\PROA\Interfaces\Testes\Entregas\Logica-de-Programa-o-Java\Equipe04_2S_2024\.metadata\.plugins\org.eclipse.jdt.core
+2512762277.index
+1865797976.index
+889448471.index
+75931715.index
