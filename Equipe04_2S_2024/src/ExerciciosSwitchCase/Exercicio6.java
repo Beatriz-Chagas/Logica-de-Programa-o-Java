@@ -1,5 +1,7 @@
 package ExerciciosSwitchCase;
 
+import java.util.Scanner;
+
 public class Exercicio6 {
 	//Escolha de Bebida 
 
@@ -9,8 +11,25 @@ public class Exercicio6 {
 
 	  
 	public static void main(String[] args) {
+	Scanner scan = new Scanner (System.in);
 	
-
+	System.out.println("Escolha uma das opções de bebida: ");
+	System.out.println("|1 - Café |2 - Chá |3 - Suco|");
+	int num = scan.nextInt();
+			
+	switch (num) {
+	case 1:
+		System.out.println("Você escolheu café!");
+		break;
+	case 2:
+		System.out.println("Você escolheu chá!");
+		break;
+	case 3:
+		System.out.println("Você escolheu suco!");
+		break;
+		default:
+			System.out.println("Essa bebida não está disponível.");
+	}
 	}
 
 }
