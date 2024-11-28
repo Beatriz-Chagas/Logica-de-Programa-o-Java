@@ -1,5 +1,7 @@
 package ExerciciosSwitchCase;
 
+import java.util.Scanner;
+
 public class Exercicio9 {
 // Categoria de Filme 
 
@@ -11,7 +13,28 @@ public class Exercicio9 {
 //R (Maior de 18 anos) 
 	public static void main(String[] args) {
 
+		Scanner scan = new Scanner(System.in);
 
+		System.out.println("Insira a classificação do filme:");
+		System.out.println("| G | PG | PG-13 | R |");
+		String classificacao = scan.next();
+
+		switch (classificacao) {
+		case "G":
+			System.out.println("A classificação etária deste filme atende aos telespectadores de todas as idades!");
+			break;
+		case "PG":
+			System.out.println("A classificação etária deste filme atende aos telespectadores maiores de 10 anos!");
+			break;
+		case "PG-13":
+			System.out.println("A classificação etária deste filme atende aos telespectadores maiores de 13 anos!");
+			break;
+		case "R":
+			System.out.println("A classificação etária deste filme atende aos telespectadores maiores de 18 anos!");
+			break;
+			default:
+				System.out.println("Classificação desconhecida.");
+		}
 	}
 
 }
